@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: taskflow
+Version: 0.1.0
+Summary: Parallel pipeline execution framework with dependency management.
+License: MIT
+Keywords: pipeline,parallel,dag,tasks,workflow,scheduling
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+
 # TaskFlow
 
 **Parallel pipeline execution framework for Python.**
